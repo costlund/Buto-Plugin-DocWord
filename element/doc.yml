@@ -1,0 +1,30 @@
+-
+  type: text
+  text: '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">'
+-
+  type: html
+  attribute:
+    xmlns: "http://www.w3.org/1999/xhtml"
+  innerHTML:
+    -
+      type: head
+      innerHTML:
+        -
+          type: meta
+          attribute:
+            http-equiv: "Content-Type"
+            content: "text/html; charset=Windows-1252"
+    -
+      type: body
+      innerHTML: rs:body
+#      innerHTML:
+#        -
+#          type: h1
+#          innerHTML: 'My Word File created with PHP...'
+#        -
+#          type: p
+#          innerHTML: 'This is a text'
+#        -
+#          type: p
+#          innerHTML: 'This is another paragraph.'
+        

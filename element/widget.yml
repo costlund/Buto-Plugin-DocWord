@@ -1,0 +1,15 @@
+-
+  type: widget
+  data:
+    plugin: doc/word
+    method: doc
+    data:
+      bodyzzz: 'example only text'
+      body:
+        -
+          type: h1
+          innerHTML: 'PluginDocWord example'
+        -
+          type: p
+          innerHTML: 'This is an example of generating ms-word document.'
+      filename: example.doc
