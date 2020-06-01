@@ -17,14 +17,3 @@
     -
       type: body
       innerHTML: rs:body
-#      innerHTML:
-#        -
-#          type: h1
-#          innerHTML: 'My Word File created with PHP...'
-#        -
-#          type: p
-#          innerHTML: 'This is a text'
-#        -
-#          type: p
-#          innerHTML: 'This is another paragraph.'
-        

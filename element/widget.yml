@@ -12,4 +12,22 @@
         -
           type: p
           innerHTML: 'This is an example of generating ms-word document.'
+        -
+          type: span
+          attribute:
+            style:
+              background: silver
+          innerHTML: 'This is an example'
+        -
+          type: span
+          attribute:
+            style:
+              font-weight: bold
+              font-size: 20px
+          innerHTML: 'of generating ms-word'
+        -
+          type: br
+        -
+          type: span
+          innerHTML: 'document.'
       filename: example.doc

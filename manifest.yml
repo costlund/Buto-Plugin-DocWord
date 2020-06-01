@@ -1,5 +1,9 @@
-version: 1.0.0
+version: 1.0.1
 history:
+  1.0.1:
+    date: '2020-06-01'
+    title: Minor change
+    description: 'Yml clean up and element example.'
   1.0.0:
     date: '2020-05-29'
     title: 'First version.'
